@@ -141,11 +141,11 @@ public class OperacionImplementacion implements OperacionInterfaz {
 
 					
 						sw = new FileWriter(ruta, true);
-						sw.write("\t");
+						sw.write("\n");
 						sw.write("-------------------------------------------------- ");
-						sw.write(" DNI: " + pasajero.getDni() + "\t");
-						sw.write(" ZONA DESTINO: " + pasajero.getZonaDestino() + "\t");
-						sw.write(" FECHA DE PASO:" + pasajero.getFechaHoy() + "\t");
+						sw.write(" DNI: " + pasajero.getDni() + "\n");
+						sw.write(" ZONA DESTINO: " + pasajero.getZonaDestino() + "\n");
+						sw.write(" FECHA DE PASO:" + pasajero.getFechaHoy() + "\n");
 						sw.write(" --------------------------------------------------");
 						sw.close();
 
